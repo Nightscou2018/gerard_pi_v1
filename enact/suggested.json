@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":107,"tick":"+0","eventualBG":110,"snoozeBG":110,"reason":"110 is in range. No temp required"}
+[{"msg":"Optional feature Auto Sensitivity enabled.  Could not find specified auto-sens: online","error":{"errno":34,"code":"ENOENT","path":"online","syscall":"open"}}]
