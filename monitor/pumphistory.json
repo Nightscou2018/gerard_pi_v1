@@ -1,0 +1,122 @@
+[
+  {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-05-29T21:33:39 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-05-29T21:33:39", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 4.4, 
+            "age": 204
+          }, 
+          {
+            "amount": 2.1, 
+            "age": 214
+          }, 
+          {
+            "amount": 2.0, 
+            "age": 224
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 324
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 384
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c11b0ccc054d6c050e0c01444d02880d0", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.1, 
+    "_head": "01010100", 
+    "amount": 0.1, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "6761351d10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 106, 
+    "bg_target_high": 130, 
+    "correction_estimate": 0.0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-05-29T21:33:39 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-05-29T21:33:39", 
+    "_body": "0a500a2350000a000000000a82", 
+    "carb_input": 10, 
+    "_head": "5b6a", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 0, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "6761151d10", 
+    "bolus_estimate": 1.0, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 10, 
+    "food_estimate": 1.0, 
+    "bg_target_low": 80, 
+    "sensitivity": 35
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-05-29T21:33:27 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-05-29T21:33:27", 
+    "_body": "", 
+    "_head": "0a6a", 
+    "amount": 106, 
+    "_date": "5b61351d10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-05-29T21:31:23 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-05-29T21:31:23", 
+    "_body": "", 
+    "_head": "0a6a", 
+    "amount": 106, 
+    "_date": "575f351d10"
+  }, 
+  {
+    "programmed": 5.0, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2016-05-29T18:08:37 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2016-05-29T18:08:37", 
+    "_body": "", 
+    "_head": "01323200", 
+    "amount": 5.0, 
+    "_date": "6548321d10"
+  }, 
+  {
+    "programmed": 3.5, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2016-05-29T17:57:40 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2016-05-29T17:57:40", 
+    "_body": "", 
+    "_head": "01232300", 
+    "amount": 3.5, 
+    "_date": "6879311d10"
+  }, 
+  {
+    "programmed": 0.5, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2016-05-29T16:10:46 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2016-05-29T16:10:46", 
+    "_body": "", 
+    "_head": "01050500", 
+    "amount": 0.5, 
+    "_date": "6e4a301d10"
+  }
+]
